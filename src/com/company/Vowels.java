@@ -3,6 +3,9 @@ package com.company;
 import java.util.ArrayList;
 
 public class Vowels {
+    /* This class fulfills the requirements for the challenge in the link below
+        https://edabit.com/challenge/GBKphScsmDi9ek3ra
+     */
 
     ArrayList<Character> vowels;
     {
