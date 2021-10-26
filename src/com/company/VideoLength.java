@@ -10,10 +10,14 @@ public class VideoLength {
         String[] totalDuration = input.split(":");
         int durationInSeconds = 0;
 
-        for (int i = totalDuration.length - 1; i > 0; i--) {
-            if (i == 1 && Integer.parseInt(totalDuration[i]) >= 60) {
-                durationInSeconds = -1;
-            }
+        for (int i = 0; i < totalDuration.length; i++) {
+            int time = Integer.parseInt(totalDuration[i]);
+
+            if (i == 1) {
+                if (time >= 60) durationInSeconds = -1;
+                else durationInSeconds += time;
+
+            } else durationInSeconds += time * 60;
 
         }
         return durationInSeconds;
