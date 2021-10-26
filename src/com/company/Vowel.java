@@ -2,7 +2,7 @@ package com.company;
 
 import java.util.ArrayList;
 
-public class Vowels {
+public class Vowel {
     /* This class fulfills the requirements for the challenge in the link below
         https://edabit.com/challenge/GBKphScsmDi9ek3ra
      */
@@ -31,7 +31,7 @@ public class Vowels {
     }
 
     public static void main(String[] args) {
-        Vowels vowels = new Vowels();
+        Vowel vowels = new Vowel();
         System.out.println(vowels.countVowels("Celebration"));
         System.out.println(vowels.countVowels("Palm"));
         System.out.println(vowels.countVowels("Prediction"));
