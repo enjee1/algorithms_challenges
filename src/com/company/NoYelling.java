@@ -8,13 +8,21 @@ public class NoYelling {
      */
 
 
-    public static String noYelling(String input) {
-        String quietString = "";
+    public static String noYelling(String sentence) {
 
-        return quietString;
+        while(sentence.endsWith("!!") || sentence.endsWith("??")) {
+            sentence = sentence.substring(0, sentence.length() - 1);
+            sentence = noYelling(sentence);
+        }
+
+        return sentence;
     }
     public static void main(String[] args) {
-
+        System.out.println(noYelling("What went wrong?????????"));
+        System.out.println(noYelling("Oh my goodness!!!"));
+        System.out.println(noYelling("I just!!! can!!! not!!! believe!!! it!!!"));
+        System.out.println(noYelling("Oh my goodness!"));
+        System.out.println(noYelling("I just cannot believe it."));
     }
 
 }
