@@ -26,17 +26,17 @@ public class DaysBetween {
 
         if (date1.before(date2)) {
             //day2 - day1
-            timeDiff = (date2.getTimeInMillis() - date1.getTimeInMillis());
+            timeDiff = ((date2.getTimeInMillis() - date1.getTimeInMillis()) / 1000 / 60 / 60 / 24);
 
         } else if (date1.after(date2)) {
-            timeDiff = (date1.getTimeInMillis() - date2.getTimeInMillis());
+            timeDiff = ((date1.getTimeInMillis() - date2.getTimeInMillis()) / 1000 / 60 / 60 / 24);
         } else {
             //dates are the same
             days = 0;
         }
 
-        System.out.println(timeDiff);
-        return days;
+
+        return (int) timeDiff;
     }
 
     public static void main(String[] args) {
