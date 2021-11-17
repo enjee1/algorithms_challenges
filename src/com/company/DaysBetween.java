@@ -16,7 +16,6 @@ public class DaysBetween {
      */
 
     public static int getDays(Date day1, Date day2){
-        int days = 0;
         long timeDiff = 0;
         Calendar date1 = new GregorianCalendar();
         Calendar date2 = new GregorianCalendar();
@@ -25,14 +24,12 @@ public class DaysBetween {
 
 
         if (date1.before(date2)) {
-            //day2 - day1
             timeDiff = ((date2.getTimeInMillis() - date1.getTimeInMillis()) / 1000 / 60 / 60 / 24);
 
         } else if (date1.after(date2)) {
             timeDiff = ((date1.getTimeInMillis() - date2.getTimeInMillis()) / 1000 / 60 / 60 / 24);
         } else {
-            //dates are the same
-            days = 0;
+            timeDiff = 0;
         }
 
 
