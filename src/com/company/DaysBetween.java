@@ -16,7 +16,7 @@ public class DaysBetween {
      */
 
     public static int getDays(Date day1, Date day2){
-        long timeDiff = 0;
+        long timeDiff;
         Calendar date1 = new GregorianCalendar();
         Calendar date2 = new GregorianCalendar();
         date1.setTime(day1);
