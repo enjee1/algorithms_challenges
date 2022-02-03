@@ -4,9 +4,9 @@ import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 
-/* This class fulfills the requirements for the challenge in the link below
+    /* This class fulfills the requirements for the challenge in the link below
         https://www.hackerrank.com/challenges/organizing-containers-of-balls/problem
-     */
+    */
 public class OrganizingBalls {
 
     public static String organizingContainers(List<List<Integer>> container) {
