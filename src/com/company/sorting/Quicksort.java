@@ -67,10 +67,9 @@ public class Quicksort {
             swap(array, leftPointer, rightPointer);
         }
 
-        if(array[leftPointer] > array[highIndex]) {
+        if (array[leftPointer] > array[highIndex]) {
             swap(array, leftPointer, highIndex);
-        }
-        else {
+        } else {
             leftPointer = highIndex;
         }
 
@@ -88,7 +87,5 @@ public class Quicksort {
             System.out.println(number);
         }
     }
-
-
 }
 
