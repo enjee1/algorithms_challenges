@@ -1,7 +1,4 @@
-package com.company;
-
-import java.sql.Array;
-import java.sql.SQLOutput;
+package com.company.arrays;
 
 public class CaptureRook {
 

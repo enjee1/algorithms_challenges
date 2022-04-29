@@ -1,4 +1,4 @@
-package com.company.november_22_2021;
+package com.company.fundamentals;
 
 public class NumberOfDigits {
 

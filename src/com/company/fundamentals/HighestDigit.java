@@ -1,4 +1,4 @@
-package com.company;
+package com.company.fundamentals;
 
 
 import java.util.stream.Stream;

@@ -1,4 +1,4 @@
-package com.company.november_24_2021;
+package com.company.strings;
 
 import java.util.Collections;
 import java.util.HashMap;
@@ -6,6 +6,11 @@ import java.util.Map;
 import java.util.Random;
 
 public class TwoStrings {
+
+    /* This class fulfills the requirements for the challenge in the link below
+        https://www.hackerrank.com/challenges/two-strings/problem
+     */
+
 
     public static String twoStrings(String s1, String s2) {
         String result = "NO";

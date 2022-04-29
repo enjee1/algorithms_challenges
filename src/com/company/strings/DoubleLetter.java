@@ -1,4 +1,4 @@
-package com.company;
+package com.company.strings;
 
 public class DoubleLetter {
     /* This class fulfills the requirements for the challenge in the link below

@@ -1,4 +1,4 @@
-package com.company.february_01_2022;
+package com.company;
 
 import java.util.Arrays;
 import java.util.Collections;
